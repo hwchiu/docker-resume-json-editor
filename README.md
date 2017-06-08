@@ -12,7 +12,7 @@ The container runs a www-server on port 8001 and you should use **-p** to forwar
 
 ```
 docker pull hwchiu/docker-resume-json-editor
-docker run --name resume -p 80:8001 hwchiu/docker-resume-json-editor
+docker run --name resume -it -p 80:8001 hwchiu/docker-resume-json-editor
 ```
 
 After that, open your browser and type the **$ip:80** in the serach bar and you can editor the resume now.
